@@ -20,13 +20,13 @@ https://code.visualstudio.com/
 ### 4. Run _Dev Containers_
 1. Clone this repository
     ```console
-    ta@cose312:~$ git clone https://github.com/kupl-courses/COSE312.git
+    ta@cose312:~$ git clone https://github.com/kupl-courses/COSE312-2026spring.git
     ```
     (If needed, install Git: https://git-scm.com/downloads)
 
 2. Open in VSC
     ```console
-    ta@cose312:~$ code COSE312
+    ta@cose312:~$ code COSE312-2026spring
     ```
 
 3. Click the left button, _Reopen in Container_, in the message shown at the bottom right.

@@ -35,6 +35,14 @@ https://code.visualstudio.com/
     If the message does not appear, click the _Open a Remote Window_ button at the bottom left, then click _Reopen in Container_.
     ![vsc_reopen_in_container-2](https://github.com/user-attachments/assets/81dd084e-4106-47f9-8829-8d76ba8e4154)
 
+## Install Opam Dependencies
+```console
+$ opam update
+$ opam upgrade --yes
+$ opam install batteries core --yes
+$ opam install user-setup && opam user-setup install
+```
+
 ## Running the Code
 
 ### Using the REPL
@@ -56,4 +64,11 @@ $ ./main
 Run `ocaml <filename>.ml` or `ocaml < <filename>.ml` in the VSC terminal.
 ```console
 $ ocaml < src/main.ml
+```
+
+## Updating Your Local Repository
+```console
+$ pwd
+/workspace/COSE312
+$ git pull
 ```
